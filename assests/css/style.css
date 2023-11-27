@@ -65,7 +65,6 @@
 
 }
 
-
 @media (min-width:992px) {
     body {
         overflow: auto;
@@ -102,6 +101,7 @@
     align-items: center;
     top: 40px;
     z-index: 2;
+   
 }
 
 .body {
@@ -117,9 +117,11 @@
 .chip {
     background-color: rgb(131, 126, 126);
     border-radius: 8px;
-
+    
+display: inline;
     padding: 0 10px;
     align-items: center;
+    
 
 
 }
@@ -146,8 +148,6 @@
     display: inline-block;
 }
 
-/* @media (min-width:1200px){
-    .navbar{
-        display: flex;
-    }
-} */
+
+
+ 
