@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f1f1f1;
+    font-family: 'Roboto',sans-serif;
+}
+.page-content{
+    margin-left: 25px;
+    position: relative;
+}
+#header{
+   
+    display: flex;
+    justify-content: space-between;
+}
+#search-bar{
+ 
+}
+#icons{
+    
+}
+
+
+#side-bar{
+    width: 250px;
+    height: 100%;
+    left: 0;
+    top: 50px;
+    overflow-y: auto;
+    background-color: rgb(158, 154, 154);
+}
+
+.top-title{
+    display: flex;
+    
+}
+.youtube-text{
+    color: white;
+    
+}
+.country-code{
+    color: white;
+}
+.second-title{
+    display: flex;
+}
+.third-title{
+    display: flex;
+}
+nav-pills li a:hover{
+background-color: blue;
+}
+.nav-item{
+    font-size: 1rem;
+}
+
+/* #side-bar{
+    background: rgb(49, 49, 49);
+     min-width: 250px;
+    /* max-width: 250px;  */
+} */
+.contant{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.subs-heading{
+    font-size: 1rem;
+    color: white;
+}
+.dot {
+    width: 4px;
+    height: 4px;
+    background-color:#065fd4;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+
+.vlog-data img {
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.vlogs h3{
+    font-size: 1.3rem;
+}
+/* .section-line{
+    background-color: rgb(22, 17, 17);
+    
+    
+} */
+/* .small-box{
+    background-color:white;
+    color: black;
+      padding: 5pxpx;
+      border: 1px solid #d6d8db;
+      border-radius: 5px;
+      margin-bottom: 5px;
+    
+} */
+
+.chip-container{
+    background-color: #fff;
+    border-top: 1px solid rgb(206, 196, 196);
+    border-bottom: 1px solid rgb(206, 196, 196);
+    padding: 10px 15px;
+    z-index: 99;
+}
+.chip{
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 15px;
+background-color: rgb(0, 0, 0, 05);
+    border-bottom: 1px solid rgb(206, 196, 196);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .side-bar{
+    background-color: brown;
+    width: 280px;
+    height: 600px;
+}
+.side-bar ul{
+    list-style: none;
+}
+.side-bar ul li a i {
+    margin-right: 30px;
+    font-size: 24px;
+}
+.side-bar ul li a img {
+    margin-right: 30px;
+}
+.side-bar ul li a span {
+    
+    font-size: 24px;
+} */
+
